@@ -14,13 +14,13 @@ export class ShoppingListComponent {
 
   }
 
-  ngOnInit(){
-      this.ingredients = this.shoppingListService.getIngredients();
-      this.shoppingListService.ingredientsChanged.subscribe(
-        (ingredients: Ingredient[]) => {
-          this.ingredients = ingredients;
-        }
-      );
-  }
+  // ngOnInit(){
+  //     this.ingredients = this.shoppingListService.getIngredients();
+  //     this.shoppingListService.ingredientsChanged.subscribe(
+  //       (ingredients: Ingredient[]) => {
+  //         this.ingredients = ingredients;
+  //       }
+  //     );
+  // }
 
 }
